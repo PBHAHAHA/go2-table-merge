@@ -3,7 +3,7 @@
  * @param {*} param0  
  * @returns 
  */
-const getSpanArr = ({param ,data}) => {
+export const getSpanArr = ({param ,data}) => {
   const arr = []
   let pos = 0
   for (let i = 0; i < data.length; i++) {
