@@ -1,11 +1,12 @@
 {
-  "name": "table-merge",
+  "name": "go2-table-merge",
   "main": "dist/index.js",
   "jsnext:main": "dist/index.esm.js",
   "version": "0.0.1",
   "author": "pub",
   "license": "MIT",
   "module": "dist/index.esm.js",
+  "files": ["/dist", "LICENSE"],
   "devDependencies": {
     "rollup": "^0.57.1",
     "rollup-plugin-node-resolve": "^3.0.3"
