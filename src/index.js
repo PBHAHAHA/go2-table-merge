@@ -11,7 +11,6 @@ import {
 export const objectSpanMethod = (e,{
   data, rule
 }) => {
-  indexArr = rule
   if(rule.length == 0){
     return
   }
