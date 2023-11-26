@@ -1,0 +1,19 @@
+{
+  "name": "table-merge",
+  "main": "dist/index.js",
+  "jsnext:main": "dist/index.esm.js",
+  "version": "0.0.1",
+  "author": "pub",
+  "license": "MIT",
+  "module": "dist/index.esm.js",
+  "devDependencies": {
+    "rollup": "^0.57.1",
+    "rollup-plugin-node-resolve": "^3.0.3"
+  },
+  "scripts": {
+    "build:self": "rollup -c config/rollup.config.js",
+    "build:esm": "rollup -c config/rollup.config.esm.js",
+    "build:aio": "rollup -c config/rollup.config.aio.js",
+    "build": "npm run build:self && npm run build:esm && npm run build:aio"
+  }
+}
