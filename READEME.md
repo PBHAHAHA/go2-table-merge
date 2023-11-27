@@ -4,12 +4,12 @@
 ## 使用指南
 通过npm安装
 ```bash
-npm install table-merge
+npm install go2-table-merge
 ```
 
 在vue文件中引入
 ```javascript
-import {objectSpanMethod} from 'table-merge'
+import {objectSpanMethod} from 'go2-table-merge'
 ```
 
 在需要使用表格合并的地方使用
