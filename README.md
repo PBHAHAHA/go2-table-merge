@@ -1,4 +1,4 @@
-# table-merge
+# go2-table-merge
 用于element-plus表格合并
 
 ## 使用指南
